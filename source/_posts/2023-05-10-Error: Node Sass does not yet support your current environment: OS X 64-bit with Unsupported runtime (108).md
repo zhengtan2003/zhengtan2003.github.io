@@ -1,4 +1,6 @@
 ---
+title: Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (108)
+date: 2023-05-10 19:37:09
 tags: 小bug真要命
 ---
 由于项目中使用的**node**版本是**18.16.0**，**node-sass**的版本是**4.7.2**，两者版本不兼容，导致此问题的出现。
