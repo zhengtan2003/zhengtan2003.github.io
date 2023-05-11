@@ -1,0 +1,78 @@
+# ===========================================
+# Site Information Settings
+# ===========================================
+
+# Site creation time
+since: 2015
+
+# Custom your favicon.ico in `site/source`
+favicon: /favicon.ico
+
+# Set feed link (false | default | your feed link)
+# false: disable
+# default: use `atom.xml`, generator for `hexo-generator-feed`
+rss: default
+
+# ===========================================
+# Menu Settings
+# ===========================================
+menu:
+#  Home: /
+#  Archives: /archives/
+#  Tags: /tags/
+#  Categories: /categories/
+#  About: /about/
+
+# ===========================================
+# Theme Settings
+# ===========================================
+# color: default | mint green | cobalt blue | hot pink | dark violet
+color: default
+
+# default page mode: default | archives
+mode: archives
+
+toc: true
+
+# jQuery fancybox
+fancybox: true
+
+# LaTeX support (via MathJax)
+latex: false
+
+copyright:
+  enable: true
+  # https://creativecommons.org/
+  license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>'
+
+reward:
+  enable: false
+  qrCode:
+    wechat:
+    alipay:
+
+# ===========================================
+# Social links Settings
+# ===========================================
+social:
+  email: zhengtan2003@foxmail.com
+  github: https://github.com/zhengtan2003
+
+# ===========================================
+# Third Party Services Settings
+# ===========================================
+
+# utterances
+# Docs: https://utteranc.es/
+# Tips: Make sure you have installed [utterances app](https://github.com/apps/utterances) in your repo
+utterances:
+  enable: true
+  repo: zhengtan2003/zhengtan2003.github.io
+  issueTerm: title
+  theme: github-light
+  label: utterances
+
+# ===========================================
+# Version
+# ===========================================
+version: 2.11.2
