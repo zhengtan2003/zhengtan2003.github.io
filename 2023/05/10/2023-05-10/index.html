@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head><meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="description" content="Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (108)"/><meta name="keywords" content="小bug真要命, zhengtan2003" /><link rel="alternate" href="/atom.xml" title="zhengtan2003" type="application/atom+xml">
+<link rel="canonical" href="https://zhengtan2003.github.io/2023/05/10/2023-05-10/"/>
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=" />
+
+<script>
+  window.config = {"leancloud":"","toc":"","fancybox":"","pjax":"","latex":""};
+</script>
+
+    <title>Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (108) - zhengtan2003</title>
+  <meta name="generator" content="Hexo 6.3.0"></head>
+
+  <body><div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/." class="logo">zhengtan2003</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list"></ul>
+</nav>
+<div class="container" id="mobile-panel">
+      <header id="header" class="header"><div class="logo-wrapper">
+  <a href="/." class="logo">zhengtan2003</a>
+</div>
+
+<nav class="site-navbar"></nav>
+</header>
+
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content"><article class="post">
+    <header class="post-header">
+      <h1 class="post-title">Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (108)
+        </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          2023-05-10
+        </span></div>
+    </header>
+
+    <div class="post-content"><p>由于项目中使用的<strong>node</strong>版本是<strong>18.16.0</strong>，<strong>node-sass</strong>的版本是<strong>4.7.2</strong>，两者版本不兼容，导致此问题的出现。</p>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>使用<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/n">n – Interactively Manage Your Node.js Versions</a>来切换<strong>node</strong>的版本，可在<a target="_blank" rel="noopener" href="https://github.com/sass/node-sass">node-sass</a>快速指南中找到可使用<strong>node</strong>版本</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install -g n</span><br><span class="line">n 14</span><br><span class="line"><span class="comment"># 如果其中一个命令没有通过，您可能需要使用 sudo</span></span><br><span class="line">sudo npm install -g n</span><br><span class="line">sudo n 14</span><br></pre></td></tr></table></figure>
+
+
+
+      </div>
+      
+      <footer class="post-footer">
+        <div class="post-tags">
+            <a href="/tags/%E5%B0%8Fbug%E7%9C%9F%E8%A6%81%E5%91%BD/">小bug真要命</a>
+            </div>
+        
+        <nav class="post-nav"></nav></footer>
+    </article></div><div class="comments" id="comments"></div></div>
+      </main>
+
+      <footer id="footer" class="footer"><div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">&copy;2023<span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">zhengtan2003</span>
+  </span>
+</div>
+</footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
+  <script type="text/javascript" src="/js/src/even.js?v="></script>
+</body>
+</html>
