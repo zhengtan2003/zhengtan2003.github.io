@@ -1,7 +1,7 @@
 ---
 title: "Parallels Desktop 18.1.1 直装破解版"
 date: 2023-05-11 20:00:00
-tags: Mac App
+tags: [Mac App]
 ---
 ### 在 Mac 上同时运行 Windows 和 macOS
 - 在您的 Intel 或 Apple M 系列 Mac 计算机上运行 Windows 应用
