@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>Nest can&#39;t resolve dependencies of the &lt;provider&gt; (?). Please make sure that the argument &lt;unknown_token&gt; at index [&lt;index&gt;] is available in the &lt;module&gt; context.</title>
-      <link href="/2023/05/13/2023-05-13-Nest%20can&#39;t%20resolve%20dependencies%20of%20the%20%3Cprovider%3E%20(?).%20Please%20make%20sure%20that%20the%20argument%20%3Cunknown_token%3E%20at%20index%20%5B%3Cindex%3E%5D%20is%20available%20in%20the%20%3Cmodule%3E%20context/"/>
-      <url>/2023/05/13/2023-05-13-Nest%20can&#39;t%20resolve%20dependencies%20of%20the%20%3Cprovider%3E%20(?).%20Please%20make%20sure%20that%20the%20argument%20%3Cunknown_token%3E%20at%20index%20%5B%3Cindex%3E%5D%20is%20available%20in%20the%20%3Cmodule%3E%20context/</url>
-      
-        <content type="html"><![CDATA[<h2 id="错误信息"><a href="#错误信息" class="headerlink" title="错误信息"></a>错误信息</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Nest can&#x27;t resolve dependencies of the &lt;provider&gt; (?). Please make sure that the argument &lt;unknown_token&gt; at index [&lt;index&gt;] is available in the &lt;module&gt; context.</span><br><span class="line"></span><br><span class="line">Potential solutions:</span><br><span class="line">- Is &lt;module&gt; a valid NestJS module?</span><br><span class="line">- If &lt;unknown_token&gt; is a provider, is it part of the current &lt;module&gt;?</span><br><span class="line">- If &lt;unknown_token&gt; is exported from a separate @Module, is that module imported within &lt;module&gt;?</span><br><span class="line">  @Module(&#123;</span><br><span class="line">    imports: [ /* the Module containing &lt;unknown_token&gt; */ ]</span><br><span class="line">  &#125;)</span><br></pre></td></tr></table></figure><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>主要是<strong>Module A</strong>引用了<strong>Module B</strong>的<strong>Service</strong>，但<strong>Module B</strong>并没有<strong>exports</strong>。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@Module(&#123;</span><br><span class="line">    ...</span><br><span class="line">    exports: [XxxService],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p><a href="https://docs.nestjs.com/faq/common-errors">官网解决方法</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 小bug真要命 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Parallels Desktop 18.1.1 直装破解版</title>
       <link href="/2023/05/11/2023-05-11-Parallels%20Desktop%2018.1.1%20%E7%9B%B4%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88/"/>
       <url>/2023/05/11/2023-05-11-Parallels%20Desktop%2018.1.1%20%E7%9B%B4%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88/</url>
